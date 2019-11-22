@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+	scroll-behavior: smooth;
+
+}
+body {
+		background-color: #000;
+}
+
+/*********************************************************************************/
+/* НАВ-БАР                                                                       */
+/*********************************************************************************/
+.navbar {
+position: fixed;
+top:0;
+padding: 0rem 0.1875rem 0rem 0.9375rem;
+border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+width: 100%;
+
+}
+
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    position: absolute;
+	left: 0;
+	margin: 0 0 0 23px;
+}
+
+
+.navbarScroll {
+    z-index: 111;
+    background-color: #fff;
+    transition: background-color 0.3s ease-in-out;
+    border-bottom: 1px solid #e3e6f0;
+	position: fixed;
+    top: 0;
+    padding: 0rem 0.1875rem 0rem 0.9375rem;
+
+   
+}
+
+.navbar-brand {
+	padding-top: 1.1250rem;
+	padding-bottom: 1.0rem;
+	border-right: 1px solid rgba(255, 255, 255, 0.15);
+	
+}
+
+.navbar-brandScroll {
+	padding-top: 1.1250rem;
+	padding-bottom: 1.0rem;
+	border-right: 1px solid #e3e6f0;
+	display: inline-block;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+	
+}
+
+.nav-icon {
+	border-left: 1px solid rgba(255, 255, 255, 0.15);
+	list-style: none;
+	padding-top: 22px;
+    padding-bottom: 20px;
+	padding-left: 15px;
+    margin-bottom: 0px;
+	
+}
+.nav-iconScroll {
+	border-left: 1px solid #e3e6f0;
+	list-style: none;
+	padding-top: 23px;
+    padding-bottom: 21px;
+	padding-left: 15px;
+    margin-bottom: 0px;
+}
+
+.icon-item {
+	margin: 0px 11px 0px 0px;
+}
+
+.nav-button {
+	margin: 13px 20px 0px 0px;
+}
+
+.nav-item {
+	margin: 0px 36px 0px 0px;
+}
+
+
+.bg-light {
+    background-color: #f8f9fa00!important;
+	    transition: background-color 0.3s ease-in-out;
+}
+
+.btn {
+    display: inline-block;
+
+	width: 98px;
+	height: 44px;
+ 
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    border: 2px solid #21C87A;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-success {
+    color: #fff;
+    background-color: #21C87A;
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+}
+
+#navbar-brand > img {
+	
+	width: 21%;
+}
+
+.navbar-light .navbar-nav .nav-link { 
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 27px;
+color: #FFFFFF;
+padding: 1.375rem 0rem;
+}
+
+.navbar-expand-lg .navbar-collapse {
+
+    flex-basis: unset;
+}
+
+/*********************************************************************************/
+/* НАВБАР ДЛЯ ЕКРАНІВ                                                             */
+/*********************************************************************************/
+
+@media only screen and (max-width: 993px) {
+	
+	.navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+	}
+	
+	.navbar-brandScroll {
+	margin-left: auto;
+    margin-right: auto;
+	}
+	
+	.navbar {
+	border-bottom: 0px solid rgba(255, 255, 255, 0.15);
+	}
+	.nav-icon {
+	border-left: 0px solid rgba(255, 255, 255, 0.15);
+	position: absolute;
+    right: 0;
+	}	
+	.nav-iconScroll {
+	border-left: 0px solid #e3e6f0;
+position: absolute;
+    right: 0;
+	}
+	
+	.navbar-brand {
+	border-right: 0px solid rgba(255, 255, 255, 0.15);
+}
+
+
+.navbar-brandScroll {
+	border-right: 0px solid #e3e6f0;
+}
+
+#nav-search {
+	display:none;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex; 
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+	flex-direction: column;
+
+}
+
+
+.carousel-list {
+    display: block!important;
+    margin: 0px 189.60px;
+    padding: 0px 15px;
+}
+	
+
+}
+
+
+
+
+
