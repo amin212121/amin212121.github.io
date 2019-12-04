@@ -239,6 +239,7 @@ position: absolute;
 text-align: center;
 border-bottom: 1px solid #6FC28A;
 padding: 10px 0px;
+
 }
 
 .build-txt p {
@@ -248,4 +249,15 @@ padding: 10px 0px;
 
 
 
+/*********************************************************************************/
+/* Сервіс                                                             */
+/*********************************************************************************/
+
+
+.service {
+background-image: url(../img/texture1.jpg);
+	height: 1300px;
+	   background-size: cover; /* Масштабируем фон */
+	   background-repeat: no-repeat;
+}
 
