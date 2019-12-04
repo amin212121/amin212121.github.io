@@ -256,7 +256,7 @@ padding: 10px 0px;
 
 .service {
 background-image: url(../img/texture1.jpg);
-	height: 1300px;
+	height: 900px;
 	   background-size: cover; /* Масштабируем фон */
 	   background-repeat: no-repeat;
 }
