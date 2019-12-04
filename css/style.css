@@ -5,7 +5,7 @@ html {
 
 }
 body {
-		background-color: #000;
+		background-color: #F9FDFA;
 }
 
 /*********************************************************************************/
@@ -85,6 +85,7 @@ width: 100%;
 
 .icon-item {
 	margin: 0px 11px 0px 0px;
+
 }
 
 .nav-button {
@@ -97,7 +98,7 @@ width: 100%;
 
 
 .bg-light {
-    background-color: #f8f9fa00!important;
+    background-color: rgba(239, 242, 246, 0.83)!important;
 	    transition: background-color 0.3s ease-in-out;
 }
 
@@ -138,7 +139,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 27px;
-color: #FFFFFF;
+	 color:#6FC28A!important;
 padding: 1.375rem 0rem;
 }
 
@@ -209,6 +210,39 @@ position: absolute;
 }
 	
 
+}
+
+
+/*********************************************************************************/
+/* Будівництво                                                             */
+/*********************************************************************************/
+
+.build {
+	background-image: url(../img/house5.jpg);
+	height: 1300px;
+	   background-size: cover; /* Масштабируем фон */
+	   background-repeat: no-repeat;
+	   
+}
+
+.build-txt {
+	    position: absolute;
+    bottom: 0;
+    width: 45%;
+    border-radius: 20px;
+    padding: 20px;
+    left: 30%;
+    background-color: rgba(249, 253, 250, 0.7);
+}
+
+.build-txt h1 {
+text-align: center;
+border-bottom: 1px solid #6FC28A;
+padding: 10px 0px;
+}
+
+.build-txt p {
+padding: 10px 0px;
 }
 
 

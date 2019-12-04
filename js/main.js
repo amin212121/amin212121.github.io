@@ -29,7 +29,7 @@ if ( position >1) {
 $('.navbar').removeClass('bg-light');
 $('#navbar-brand').removeClass('navbar-brand');
 $('#nav-icon').removeClass('nav-icon');
-$('#navbar-brand img').attr('src', ' img/logo.png');
+$('#navbar-brand img').attr('src', ' img/logo1.png');
 $('#nav-search').attr('src', ' img/search.png');
 $('#nav-buy').attr('src', ' img/buy.png');
 $('#nav-menu').attr('src', ' img/menu.png');
@@ -48,7 +48,7 @@ else {
 	$('#nav-search').attr('src', ' img/search-wh.png');
 	$('#nav-buy').attr('src', ' img/buy-wh.png');
 $('#nav-menu').attr('src', ' img/menu-wh.png');
-$('#navbar-brand img').attr('src', ' img/logo.png');
+$('#navbar-brand img').attr('src', ' img/logo1.png');
 	$('.navbar').addClass('bg-light' );
 
 $('.navbar-light .navbar-nav .nav-link').css('color', '#ffffff');
