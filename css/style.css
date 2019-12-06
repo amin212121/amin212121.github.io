@@ -217,33 +217,58 @@ position: absolute;
 /* Будівництво                                                             */
 /*********************************************************************************/
 
-.build {
+.build-back {
 	background-image: url(../img/house5.jpg);
-	height: 1300px;
+	height: 700px;
 	   background-size: cover; /* Масштабируем фон */
 	   background-repeat: no-repeat;
 	   
 }
 
 .build-txt {
-	    position: absolute;
-    bottom: 0;
-    width: 45%;
-    border-radius: 20px;
-    padding: 20px;
-    left: 30%;
-    background-color: rgba(249, 253, 250, 0.7);
+	    
+   
+ 
 }
 
 .build-txt h1 {
 text-align: center;
-border-bottom: 1px solid #6FC28A;
-padding: 10px 0px;
-
+border-bottom: 3px solid #6FC28A;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+    color: #6FC28A;
+	padding: 20px 0px 10px 0px;
+ width: 60%;
+ margin-left: auto;
+    margin-right: auto;
 }
 
 .build-txt p {
-padding: 10px 0px;
+text-align: center;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+  color: #6FC28A;
+  padding: 10px 0px;
+  width: 50%;
+      margin-left: auto;
+    margin-right: auto;
+}
+
+.build-ico {
+display: flex;
+justify-content: space-around;
+padding: 20px 0px;
+color: #6FC28A;
+}
+
+.build-ico p {
+    text-align: -webkit-center;
 }
 
 
