@@ -47,15 +47,13 @@ width: 100%;
 }
 
 .navbar-brand {
-	padding-top: 1.1250rem;
-	padding-bottom: 1.0rem;
+	
 	border-right: 1px solid rgba(255, 255, 255, 0.15);
 	
 }
 
 .navbar-brandScroll {
-	padding-top: 1.1250rem;
-	padding-bottom: 1.0rem;
+
 	border-right: 1px solid #e3e6f0;
 	display: inline-block;
     margin-right: 1rem;
@@ -98,7 +96,7 @@ width: 100%;
 
 
 .bg-light {
-    background-color: rgba(239, 242, 246, 0.83)!important;
+    background-color: rgba(239, 242, 246, 0.95)!important;
 	    transition: background-color 0.3s ease-in-out;
 }
 
@@ -129,8 +127,17 @@ text-align: center;
 }
 
 #navbar-brand > img {
-	
-	width: 21%;
+	height: 70px;
+	width: 170px;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
 }
 
 .navbar-light .navbar-nav .nav-link { 
@@ -265,6 +272,7 @@ display: flex;
 justify-content: space-around;
 padding: 20px 0px;
 color: #6FC28A;
+align-items: flex-end;
 }
 
 .build-ico p {
@@ -280,9 +288,47 @@ color: #6FC28A;
 
 
 .service {
-background-image: url(../img/texture1.jpg);
-	height: 900px;
+background: linear-gradient( rgb(111, 194, 138, 0.5) 100%, rgba(111, 194, 138, 0.5)100%), url(../img/texture1.jpg);
+	height: 740px;
 	   background-size: cover; /* Масштабируем фон */
 	   background-repeat: no-repeat;
+	   
+	   padding: 84px 0px 0px 0px;
 }
 
+
+.serviceh1 {
+	width: 37%;
+color: #fff;
+ margin-left: auto;
+    margin-right: auto;
+	border: 4px solid #fff;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.service-ico {
+	display: flex;
+    justify-content: center;
+padding: 10px 0px;
+}
+
+.service-ico > p {
+	color: #fff;
+	width: 35%;
+	display: inline-block;
+	    padding: 0px 0px 0px 31px;
+}
+
+
+.service-info {
+	margin-top: 60px;
+}
+
+
+
+.scroll-top {
+	position: fixed;
+	right: 20px;
+	bottom: 10px;
+}
