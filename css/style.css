@@ -443,11 +443,32 @@ color: #fff;
 
 
 
+.txtcol {
+    
+padding: 25px 0px;
+font-family: SemiBold 18px/30px Open Sans;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.txtnum {
+	width: 45px;
+height: 45px;
+	letter-spacing: 0;
+color: #6FC28A;
+text-align: -webkit-center;
+border-radius: 115px;
+	display: inline-block;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
 
 .scroll-top {
 	position: fixed;
 	right: 20px;
 	bottom: 10px;
+	
 }
 
 
