@@ -493,6 +493,12 @@ background: #FFFFFF 0% 0% no-repeat padding-box;
 opacity: 1;
 }
 
+.txtnum span{
+position: relative;
+    top: 20%;
+}
+
+
 .btnc {
 	color: rgb(111, 194, 138);
 	background-color: #fff;
