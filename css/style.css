@@ -459,7 +459,7 @@ background: linear-gradient( rgb(111, 194, 138, 0.5) 100%, rgba(111, 194, 138, 0
 	height: 840px;
 	   background-size: cover; /* Масштабируем фон */
 	   background-repeat: no-repeat;
-	   
+	       margin: 40px 0px;
 	   padding: 84px 0px 0px 0px;
 }
 
@@ -626,6 +626,11 @@ letter-spacing: 0;
     max-width: 100%;
 		
 	} 
+	
+	.containers {
+    position: relative;
+    width: 95%;
+}
 	
 	#contactend > div > div > div.col-6.textcon {
 		flex: 0 0 50%;
