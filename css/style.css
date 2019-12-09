@@ -420,6 +420,14 @@ padding: 30px 0px;
   clear: both;
 }
 
+
+
+body > div.containers > div:nth-child(n) > img
+	{
+		height: 450px;
+    
+	}
+
 /* Six columns side by side */
 .containers .row {
  display: flex;
@@ -565,7 +573,38 @@ letter-spacing: 0;
     flex: 0 0 50%;
     max-width: 100%;
 }
+	body > div.containers > div.row {
 	
+    flex-direction: row;
+		
+	}
+
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 45px;
+    width: auto;
+    padding: 0x 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+	.next {
+    right: 0;
+    top: 45px;
+    border-radius: 3px 0 0 3px;
+}
+	
+	body > div.containers > div:nth-child(n) > img
+	{
+		height: 100%;
+    width: 100%;
+	}
 	
 	.build-txt h1 {
     text-align: center;
