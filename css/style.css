@@ -273,6 +273,7 @@ justify-content: space-around;
 padding: 20px 0px;
 color: #6FC28A;
 align-items: flex-end;
+flex-wrap: wrap;
 }
 
 .build-ico p {
@@ -542,12 +543,161 @@ letter-spacing: 0;
     margin-right: auto;
 }
 
+
+@media only screen and (max-width: 768px) {
+	
+	.build-back {
+    background-image: url(../img/house5.jpg);
+    height: 330px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+	.txtcol {
+    /* padding: 25px 0px; */
+    font-family: SemiBold 18px/30px Open Sans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+	
+	.contact .col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 100%;
+}
+	
+	
+	.build-txt h1 {
+    text-align: center;
+    border-bottom: 3px solid #6FC28A;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #6FC28A;
+    padding: 20px 0px 10px 0px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+	
+	#contactend > div > div > div:nth-child(2) {
+		flex: 0 0 50%;
+    max-width: 100%;
+		
+	} 
+	
+	#contactend > div > div > div.col-6.textcon {
+		flex: 0 0 50%;
+    max-width: 90%;
+	}
+	
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+	
+	.build-txt p {
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #6FC28A;
+    padding: 10px 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.serviceh1 {
+    width: 85%;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #fff;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.service-ico > p {
+    color: #fff;
+    width: 100%;
+    display: inline-block;
+    padding: 0px 0px 0px 31px;
+}
+
+.service {
+    background: linear-gradient( rgb(111, 194, 138, 0.5) 100%, rgba(111, 194, 138, 0.5)100%), url(../img/texture1.jpg);
+    height: fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 84px 0px 0px 0px;
+}
+
+
+.contacth1 {
+    width: 90%;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #fff;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.txtcol {
+    /* padding: 25px 0px; */
+    font-family: SemiBold 18px/30px Open Sans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+footer {
+    border-top: 3px solid #6FC28A;
+    text-align: center;
+    font: Medium 14px/17px Helvetica Neue;
+    letter-spacing: 0;
+    color: #6FC28A;
+    padding: 30px 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contact {
+    background: linear-gradient( rgb(111, 194, 138, 0.5) 100%, rgba(111, 194, 138, 0.5)100%), url(../img/texture3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 84px 0px 0px 0px;
+    height: fit-content;
+}
+
+}
+
+
+
 .scroll-top {
 	position: fixed;
 	right: 20px;
 	bottom: 10px;
 	
 }
+
+
 
 
 
