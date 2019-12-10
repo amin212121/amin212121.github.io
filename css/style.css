@@ -290,11 +290,11 @@ flex-wrap: wrap;
 
 .service {
 background: linear-gradient( rgb(111, 194, 138, 0.5) 100%, rgba(111, 194, 138, 0.5)100%), url(../img/texture1.jpg);
-	height: 740px;
+	height: fit-content;
 	   background-size: cover; /* Масштабируем фон */
 	   background-repeat: no-repeat;
 	   
-	   padding: 84px 0px 0px 0px;
+	   padding: 84px 0px 84px 0px;
 }
 
 
@@ -456,13 +456,57 @@ body > div.containers > div:nth-child(n) > img
 
 .contact {
 background: linear-gradient( rgb(111, 194, 138, 0.5) 100%, rgba(111, 194, 138, 0.5)100%), url(../img/texture3.png);
-	height: 840px;
+	height: fit-content;
 	   background-size: cover; /* Масштабируем фон */
 	   background-repeat: no-repeat;
 	       margin: 40px 0px;
-	   padding: 84px 0px 0px 0px;
+	  padding: 60px 0px 60px 0px;
 }
 
+#contact > div:nth-child(3) > div.name {
+	    margin: 15px 0px;
+}
+
+#contact > div:nth-child(3) > div.phone {
+	    margin: 0px 0px 15px 0px;
+}
+
+input {
+    overflow: visible;
+    width: 57%;
+	color: #6FC28A;
+	height: 40px;
+	padding: 0px 20px;
+}
+
+button {
+    overflow: visible;
+    width: 30%;
+	color: #6FC28A;
+		height: 50px;
+		border: none;
+}
+
+
+
+#contact > div.container > div > div:nth-child(n) > div:nth-child(n) > div > span
+{
+	    padding: 0px 0px 0px 10px;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #6FC28A;
+}
+::-moz-placeholder { /* Firefox 19+ */
+ color: #6FC28A;
+}
+:-ms-input-placeholder { /* IE 10+ */
+ color: #6FC28A;
+}
+:-moz-placeholder { /* Firefox 18- */
+color: #6FC28A;
+}
 
 .contact .container .row {
 justify-content: center;
@@ -476,7 +520,7 @@ color: #fff;
     margin-right: auto;
 	border: 4px solid #fff;
 	text-align: center;
-	padding: 10px 0px;
+	padding: 20px 0px;
 }
 
 
@@ -524,6 +568,11 @@ position: relative;
 
 .contactend .row {
 
+}
+
+
+#contactend > div > div > div.col-6.textcon > p:nth-child(n) > span {
+		padding: 0px 0px 0px 15px;
 }
 
 .textcon {
