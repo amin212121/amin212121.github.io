@@ -311,7 +311,7 @@ color: #fff;
 .service-ico {
 	display: flex;
     justify-content: center;
-padding: 10px 0px;
+padding: 10px 20px;
 }
 
 .service-ico > p {
@@ -736,7 +736,7 @@ letter-spacing: 0;
     height: fit-content;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 84px 0px 0px 0px;
+    padding: 84px 0px 84px 0px;
 }
 
 
@@ -775,7 +775,7 @@ footer {
     background: linear-gradient( rgb(111, 194, 138, 0.5) 100%, rgba(111, 194, 138, 0.5)100%), url(../img/texture3.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 84px 0px 0px 0px;
+    padding: 84px 0px 84px 0px;
     height: fit-content;
 }
 
