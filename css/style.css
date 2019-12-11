@@ -225,7 +225,7 @@ position: absolute;
 /*********************************************************************************/
 
 .build-back {
-	background-image: url(../img/house5.png);
+	background: url(../img/house5.png);
 	height: 700px;
 	   background-size: cover; /* Масштабируем фон */
 	   background-repeat: no-repeat;
@@ -289,7 +289,7 @@ flex-wrap: wrap;
 
 
 .service {
-background: linear-gradient( rgb(111, 194, 138, 0.5) 100%, rgba(111, 194, 138, 0.5)100%), url(../img/texture1.png);
+background: url(../img/texture1.png);
 	height: fit-content;
 	   background-size: cover; /* Масштабируем фон */
 	   background-repeat: no-repeat;
@@ -455,7 +455,7 @@ body > div.containers > div:nth-child(n) > img
 /*********************************************************************************/
 
 .contact {
-background: linear-gradient( rgb(111, 194, 138, 0.5) 100%, rgba(111, 194, 138, 0.5)100%), url(../img/texture3.png);
+background: url(../img/texture3.png);
 	height: fit-content;
 	   background-size: cover; /* Масштабируем фон */
 	   background-repeat: no-repeat;
@@ -604,7 +604,7 @@ letter-spacing: 0;
 @media only screen and (max-width: 768px) {
 	
 	.build-back {
-    background-image: url(../img/house5.png);
+    background: url(../img/house5.png);
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -732,7 +732,7 @@ letter-spacing: 0;
 }
 
 .service {
-    background: linear-gradient( rgb(111, 194, 138, 0.5) 100%, rgba(111, 194, 138, 0.5)100%), url(../img/texture1.png);
+    background: url(../img/texture1.png);
     height: fit-content;
     background-size: cover;
     background-repeat: no-repeat;
@@ -772,7 +772,7 @@ footer {
 
 
 .contact {
-    background: linear-gradient( rgb(111, 194, 138, 0.5) 100%, rgba(111, 194, 138, 0.5)100%), url(../img/texture3.png);
+    background: url(../img/texture3.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 84px 0px 84px 0px;
