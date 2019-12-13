@@ -627,7 +627,50 @@ letter-spacing: 0;
     flex-direction: row;
 		
 	}
+	
+	
+	#navbar > button {
+		overflow: visible;
+    color: #6FC28A;
+    height: inherit;
+    width: initial;
+    
+		
+	}
+	
+	
+#contact > div.container > div > div:nth-child(n) > div:nth-child(n) {
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+    flex-direction: column;
+    width: 100%;
+padding: 0px 15px;
+}
 
+#contact .container .txtcol {
+    padding: 10px 0px !important;
+    
+}
+
+input {
+    overflow: visible;
+    width: 85%;
+    color: #6FC28A;
+    height: 40px;
+    padding: 0px 20px;
+}
+
+button {
+    overflow: visible;
+    width: 60%;
+    color: #6FC28A;
+    height: 50px;
+    border: none;
+}
 
 .prev, .next {
     cursor: pointer;
@@ -685,6 +728,36 @@ letter-spacing: 0;
 		flex: 0 0 50%;
     max-width: 90%;
 	}
+	
+	.contactend {
+    padding: 0px 0px 65px 0px;
+}
+	body > div.containers > div.row > div:nth-child(3) {
+		display: none;
+	}
+	body > div.containers > div.row > div:nth-child(4) {
+		display: none;
+	}
+	body > div.containers > div.row > div:nth-child(5) {
+		display: none;
+	}
+	body > div.containers > div.row > div:nth-child(6) {
+		display: none;
+	}
+	body > div.containers > div.row > div:nth-child(7) {
+		display: none;
+	}
+	body > div.containers > div.row > div:nth-child(8) {
+		display: none;
+	}
+	body > div.containers > div.row > div:nth-child(9) {
+		display: none;
+	}
+	body > div.containers > div.row > div:nth-child(10) {
+		display: none;
+	}
+	
+	
 	
 .map-responsive{
     overflow:hidden;
