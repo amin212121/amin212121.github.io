@@ -52,6 +52,10 @@ width: 100%;
 	
 }
 
+.toptel {
+display: none;
+}
+
 .navbar-brandScroll {
 
 	border-right: 1px solid #e3e6f0;
@@ -381,7 +385,7 @@ padding: 30px 0px;
 
 .containers {
   position: relative;
-      width: 99%;
+      width: 100%;
 }
 
 /* Hide the images by default */
@@ -442,9 +446,9 @@ padding: 30px 0px;
 .caption-container {
   text-align: center;
   background-color: #222;
-  padding: 2px 16px;
+  padding: 2px 0px;
   color: white;
-  width: 101%;
+  width: 100%;
 }
 
 .row:after {
@@ -465,9 +469,9 @@ body > div.containers > div:nth-child(n) > img
 .containers .row {
  display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    flex-wrap: nowrap;
+    margin-right: 0px;
+    margin-left: 0px;
     justify-content: space-around;
 }
 .column {
@@ -636,6 +640,34 @@ letter-spacing: 0;
 
 @media only screen and (max-width: 768px) {
 	
+	
+	.toptel {
+		display: block;
+	position: absolute;
+    bottom: 22%;
+    left: 14%;
+    background-color: rgba(111, 194, 138, 0.5); 
+	color: #fff!important;
+	    padding: 0px 15px;
+}
+.toptel a {
+	    display: block;
+    color: #fff!important;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+	
+}
+
+.toptel p {
+	font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+}
+	
 	.build-back {
     background: url(../img/house5.png);
     height: 300px;
@@ -658,7 +690,7 @@ letter-spacing: 0;
 	body > div.containers > div.row {
 	
     flex-direction: row;
-		
+		width: 97%;
 	}
 	
 	
@@ -718,6 +750,8 @@ button {
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
+	    background-color: #fff;
+    opacity: 0.5;
 }
 	.next {
     right: 0;
@@ -754,7 +788,7 @@ button {
 	
 	.containers {
     position: relative;
-    width: 95%;
+    width: 100%;
 }
 	
 	#contactend > div > div > div.col-6.textcon {
