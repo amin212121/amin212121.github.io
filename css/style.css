@@ -262,7 +262,7 @@ position: absolute;
 /*********************************************************************************/
 
 .build-back {
-	background: url(../img/house5.png);
+	background: url(../img/house5.webp);
 	height: 700px;
 	   background-size: cover; /* Масштабируем фон */
 	   background-repeat: no-repeat;
@@ -326,7 +326,7 @@ flex-wrap: wrap;
 
 
 .service {
-background: url(../img/texture1.png);
+background: url(../img/texture1.webp);
 	height: fit-content;
 	   background-size: cover; /* Масштабируем фон */
 	   background-repeat: no-repeat;
@@ -492,7 +492,7 @@ body > div.containers > div:nth-child(n) > img
 /*********************************************************************************/
 
 .contact {
-background: url(../img/texture3.png);
+background: url(../img/texture3.webp);
 	height: fit-content;
 	   background-size: cover; /* Масштабируем фон */
 	   background-repeat: no-repeat;
@@ -669,7 +669,7 @@ letter-spacing: 0;
 }
 	
 	.build-back {
-    background: url(../img/house5.png);
+    background: url(../img/house5.webp);
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -872,7 +872,7 @@ button {
 }
 
 .service {
-    background: url(../img/texture1.png);
+    background: url(../img/texture1.webp);
     height: fit-content;
     background-size: cover;
     background-repeat: no-repeat;
@@ -912,7 +912,7 @@ footer {
 
 
 .contact {
-    background: url(../img/texture3.png);
+    background: url(../img/texture3.webp);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 84px 0px 84px 0px;
